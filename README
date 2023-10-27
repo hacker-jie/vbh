@@ -1,0 +1,9 @@
+This is based on vbh project: https://github.com/intel/vbh
+
+How to compiling:
+#make
+Note: tested against 5.4.x kernel. For some later version, there may have compiling issue.
+
+How to use:
+1. after make, you will get a kernel module called vmx-switch.ko, and you can insmod this kernel module directly by #insmod ./vmx-switch.ko
+Note: before insmode, please make sure there is no VM is running on your system.
